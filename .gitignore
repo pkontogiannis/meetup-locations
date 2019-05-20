@@ -1,0 +1,25 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+idea.sbt
+/project
+
+api/.idea
+api/project/project
+api/project/target
+api/target
+
+collectors/.idea
+collectors/project/project
+collectors/project/target
+collectors/target
+collectors/core
+
+processors/.idea
+processors/project/project
+processors/project/target
+processors/target
+
+storage/.idea
+storage/project/project
+storage/project/target
+storage/target

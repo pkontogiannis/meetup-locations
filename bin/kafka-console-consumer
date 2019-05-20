@@ -1,0 +1,7 @@
+#!/bin/bash
+
+DIR=`dirname "$0"`
+
+docker-compose -f $DIR/../docker/docker-compose.yml exec kafka kafka-console-consumer "$@"
+
+#--bootstrap-server kafka:9092
